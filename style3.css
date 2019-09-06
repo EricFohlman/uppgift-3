@@ -1,0 +1,77 @@
+  table,th,td
+  {
+    border:2px solid red;
+    border-collapse: collapse;  
+  }
+
+.rubrik{
+background-color:grey;
+color:black;
+}
+
+.rad1{
+background-color:yellow;
+color:black;
+}
+    
+.rad2{
+background-color:blue;
+color:black;
+}
+    
+.rad3{
+background-color:green;
+color:black;
+}
+
+.rad4{
+background-color:purple;
+color:black;
+}
+
+td:nth-child(4){
+    text-align:right;
+}
+td:nth-child(2){
+    text-align:center;
+}
+td:nth-child(3){
+    text-align:center;
+}
+}
+td:nth-child(1){
+    text-align:left;
+}
+.text{
+    text-align:center;
+}
+
+.blue{
+    background: blue;
+    width:140px;
+    height:150px;
+}
+
+.red{
+    background: red;
+    width:100px;
+    height:130px;
+}
+
+.green{
+    background: limegreen;
+    width:100px;
+    height:130px;
+}
+
+.black{
+    background: black;
+    width:140px;
+    height:150px;
+}
+
+.yellow{
+    background: yellow;
+ width:200px;
+    height:150px;
+}
